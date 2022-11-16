@@ -24,3 +24,12 @@ a {
     background: black;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .fontInter{
+    font-family: 'Inter', sans-serif;
+  }
+}
