@@ -1,11 +1,11 @@
 import React from 'react'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
-// interface FunctionProps{
-//     bringTweet:void
-// }
+interface FunctionProps{
+    bringTweet:(e:React.SyntheticEvent)=>void
+}
 
 
-const Header:React.FC=({bringTweet}) =>{
+const Header=({bringTweet}: FunctionProps) =>{
 
   return (
     <div className="pt-20 px-4">
